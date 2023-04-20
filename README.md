@@ -11,7 +11,7 @@ This app is a simple reproduction of an issue using router.push from next/naviga
 
    2.2: Added `tauri` to package.json scripts. Ran `pnpm tauri init`.
 
-3. Updated next.config.js to use `output: "export"`.
+3. Updated next.config.js to use `output: "export"` for SSG (Static Generation).
 4. Made a simple page at `app/examplePage/page.tsx`
 5. Imported `next/navigation` in `app/page.tsx` and added a button that calls `router.push('/examplePage')`.
 6. Ran `pnpm tauri dev` and clicked the button. The app navigated to the example page as expected and rendered it properly.
